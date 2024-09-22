@@ -1,4 +1,4 @@
-[200~#!/bin/bash
+#!/bin/bash
 
 # Start the Tor service
 echo "Starting Tor..."
@@ -17,7 +17,7 @@ then
 	   echo "Tor is running. Now starting the Python script."
 
 	      # Run the Python script (replace with the correct path to bayGetterScript.py)
-	         python3 bayGetterScript.py
+	         python3 bayGetter/bayGetterScript.py
 
 		    # Optionally, kill Tor after the script finishes
 		       echo "Stopping Tor..."
